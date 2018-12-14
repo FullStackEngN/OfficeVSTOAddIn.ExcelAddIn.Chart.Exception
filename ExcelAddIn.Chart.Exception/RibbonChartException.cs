@@ -36,8 +36,8 @@ namespace ExcelAddIn.Chart.Exception
             double width = 200.00;
             double height = 200.00;
 
-            Microsoft.Office.Tools.Excel.Chart chart = worksheet.Controls.AddChart(left, top, width, height, "test" + DateTime.Now.ToString("yyyymmddhhssfff"));
-            chart.ChartType = Excel.XlChartType.xl3DPie;
+            Microsoft.Office.Tools.Excel.Chart chart = worksheet.Controls.AddChart(left, top, width, height, "test" + DateTime.Now.ToString("yyyyMMddHHmmssfff"));
+            chart.ChartType = Excel.XlChartType.xlColumnClustered;
 
             Excel.Range cells = worksheet.Range["A1", "D4"];
             chart.SetSourceData(cells);
