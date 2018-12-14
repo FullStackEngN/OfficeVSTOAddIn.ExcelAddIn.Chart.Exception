@@ -1,12 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Microsoft.Office.Tools.Ribbon;
-using Excel = Microsoft.Office.Interop.Excel;
-using Microsoft.Office.Tools.Excel;
+﻿/// <summary>
+/// WARNING: ANY USE BY YOU OF THE SAMPLE CODE PROVIDED IN THIS FILE IS AT YOUR OWN RISK. 
+/// Microsoft provides this code "as is" without warranty of any kind, either express or implied, 
+/// including but not limited to the implied warranties of merchantability and/or fitness for a particular purpose.
+/// </summary>
+
+using System;
 using System.Drawing;
 using System.Windows.Forms;
+using Microsoft.Office.Tools.Excel;
+using Microsoft.Office.Tools.Ribbon;
+using Excel = Microsoft.Office.Interop.Excel;
 
 namespace ExcelAddIn.Chart.Exception
 {
