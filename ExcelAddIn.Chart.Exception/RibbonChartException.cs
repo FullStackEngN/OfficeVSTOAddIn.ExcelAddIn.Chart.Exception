@@ -46,6 +46,10 @@ namespace ExcelAddIn.Chart.Exception
 
             try
             {
+                //chart.PlotArea.Select();
+
+                //var tempTop = chart.PlotArea.Top;
+
                 chart.PlotArea.Left = 15.00;
                 chart.PlotArea.Top = 15.00;
                 chart.PlotArea.Width = 150.00;
